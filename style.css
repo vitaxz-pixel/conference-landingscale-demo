@@ -1,0 +1,43 @@
+header{
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+}
+.logo{
+    font-size: 48px;
+    font-weight: bold;
+    color: brown;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    cursor: default;
+    transition: color 0.3s ease;
+}
+*{
+    box-sizing: border-box;
+}
+.f-speaker img{
+    width: 100%;
+    height: auto;
+}
+.f-speaker{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    border: 10px slategray solid;
+    padding: 10px;
+    margin: 10px;
+    background: white;
+}
+footer{
+    background-color: slategray;
+    padding: 20px;
+}
+body{
+    background-color: skyblue;
+}
+nav a:hover{
+    background-color: brown;
+    color: white;
+}
